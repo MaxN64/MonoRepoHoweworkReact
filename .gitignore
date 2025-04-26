@@ -1,0 +1,9 @@
+# Игнорируем все node_modules во всех подпапках
+**/node_modules/
+
+# Папки сборки (если вдруг)
+**/build/
+
+# Системные файлы (macOS, Windows)
+**/.DS_Store
+**/Thumbs.db
