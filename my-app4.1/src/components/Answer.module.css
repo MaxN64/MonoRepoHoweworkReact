@@ -1,0 +1,29 @@
+.answerForm{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.submitButton {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .input {
+    font-size: 16px;
+    width: 200px;       /* например */
+  height: 30px;
+  padding: 8px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  }
+  .input::placeholder {
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+  }
