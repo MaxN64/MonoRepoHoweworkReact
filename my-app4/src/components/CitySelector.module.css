@@ -1,0 +1,13 @@
+.select{
+   font-size: 20px;
+   font-weight: 700;
+   color: rgb(182, 103, 6);
+}
+
+.label{
+    font-size: 20px;
+}
+
+.wrapper{
+    background-color: rgb(88, 243, 191);
+}

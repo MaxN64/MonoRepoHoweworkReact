@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(248, 249, 251);
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fafafb;
+    border: 2px red solid;
+  }
+  
+  

@@ -1,0 +1,25 @@
+
+.card {
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+  
+ 
+  }
+  .image {
+    width: 1000px;
+    height: 700px;
+    object-fit: cover;
+  }
+  
+  .facts {
+    font-size: 20px;
+    color: rgb(99, 97, 100);
+
+  }
+  .name {
+    font-size: 40px;
+    font-weight: 700;
+    color: brown;
+  }
