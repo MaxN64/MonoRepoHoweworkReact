@@ -1,0 +1,23 @@
+
+.hero {
+    text-align: center;
+    margin-top: 100px; 
+    /* border: 2px rgb(239, 64, 64) solid; */
+  }
+  
+  .title {
+    color: #1ed760;
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0;
+    /* border: 2px rgb(239, 64, 64) solid; */
+  }
+  
+  .subtitle {
+    color: #1ed760;
+    margin-top: 0.5rem;
+    font-size: 32px;
+    font-weight: 700;
+    /* border: 2px rgb(201, 244, 139) solid; */
+  }
+  

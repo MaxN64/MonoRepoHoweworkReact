@@ -1,0 +1,12 @@
+.mainWrapper{
+    min-height: 30vh;
+    background: rgba(205, 231, 255, 1);
+    padding: 130px 0 290px 100px;
+background-image: url(../assets/svg/SearchBG.svg);
+    background-repeat:  no-repeat;
+    background-position: 100% -100%;
+
+
+}
+   
+    

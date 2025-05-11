@@ -1,0 +1,41 @@
+.form{
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+   margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35);
+
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    flex:1;
+    background-color: white;
+    padding: 20px;
+    gap: 8px
+}
+.input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.divider {
+    width: 1px;
+    height: 20px;
+    background: black;
+    margin: 0, 200px;
+}
+
+.button{
+    max-width: 213px;
+    width: 100%;
+    border: none;
+    background: rgba(39, 64, 89, 1);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+.button:hover{
+    color: rgb(237, 118, 118);
+}

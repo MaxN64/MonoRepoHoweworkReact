@@ -1,0 +1,40 @@
+.header{
+    padding: 30px 100px;
+    background: rgba(205, 231, 255, 1);
+    border: 2px rgb(22, 242, 62) solid;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    border: 2px red solid;
+}
+.logo{
+    margin-left: 110px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex: 3;
+}
+.auth{
+    display: flex;
+    align-items: center;
+    gap: 24px
+    
+}
+
+.regButton {
+    border: none;
+    background: transparent;
+    font-weight: 400;
+
+}
+.authButton{
+  padding: 13px 14px;
+  background: white;
+  border: none;
+
+
+}

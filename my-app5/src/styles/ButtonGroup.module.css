@@ -1,0 +1,12 @@
+
+.group {
+    display: inline-flex;
+    border: 2px solid #1ed760;
+    border-radius: 65px;
+    overflow: hidden;      
+    /* margin-top: 2rem; */
+   padding: 36px 57px 41px 40px;
+ 
+    /* border: 4px rgb(239, 64, 64) solid; */
+  }
+  
