@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { NavLink, Routes, Route } from 'react-router-dom';
+import Home from './components/Home';
+import ArticlesList from './components/ArticlesList';
+import ArticlePage from './components/ArticlePage';
+import styles from './styles/App.module.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <nav className={styles.nav}>
+        <NavLink to="/" end className={({ isActive }) => isActive ? styles.active : ''}>
+          Главная
+        </NavLink>
+        <NavLink to="/articles" className={({ isActive }) => isActive ? styles.active : ''}>
+          Статьи
+        </NavLink>
+       
+      </nav>
+
+      <main className={styles.main}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/articles" element={<ArticlesList />} />
+          <Route path="/articles/:id" element={<ArticlePage />} />
+        </Routes>
+      </main>
     </div>
   );
 }

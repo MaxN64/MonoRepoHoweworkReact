@@ -1,0 +1,14 @@
+.list ul {
+  list-style: none;
+  padding: 0;
+}
+.list li {
+  margin-bottom: 0.5rem;
+}
+.list a {
+  color: #007bff;
+  text-decoration: none;
+}
+.list a:hover {
+  text-decoration: underline;
+}

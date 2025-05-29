@@ -1,25 +1,40 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import ValueDisplay from './ValueDisplay';
 
 function App() {
+  
+  const [value, setValue] = useState('');
+  
+  const [draft, setDraft] = useState(value);
+
+ 
+  const handleChange = e => {
+    setDraft(e.target.value);
+  };
+
+ 
+  const handleSubmit = e => {
+    e.preventDefault();
+    setValue(draft);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Current and Previous Value</h1>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          value={draft}
+          onChange={handleChange}
+          placeholder="Type and press Enter"
+        />
+      </form>
+      
+      <ValueDisplay value={value} />
     </div>
   );
 }
 
 export default App;
+
