@@ -1,0 +1,12 @@
+
+
+.item {
+  padding: 10px 16px;
+  border-bottom: 1px solid #a86565;
+  font-size: 16px;
+  color: #333;
+}
+
+.item:last-child {
+  border-bottom: none;
+}

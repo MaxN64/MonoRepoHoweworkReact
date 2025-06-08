@@ -1,0 +1,15 @@
+
+
+.container {
+  width: 100%;
+   border: 2px rgb(4, 4, 4) solid;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #fafafa;
+}

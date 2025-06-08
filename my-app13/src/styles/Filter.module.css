@@ -1,0 +1,16 @@
+
+
+.container {
+  margin-bottom: 16px;
+  width: 100%;
+  border: 2px rgb(4, 4, 4) solid;
+}
+
+.input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

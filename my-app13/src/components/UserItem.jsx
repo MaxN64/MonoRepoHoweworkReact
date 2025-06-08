@@ -1,0 +1,13 @@
+// src/components/UserItem.jsx
+import React from 'react';
+import styles from '../styles/UserItem.module.css';
+
+const UserItem = ({ user }) => {
+  return (
+    <li className={styles.item}>
+      {user.name}
+    </li>
+  );
+};
+
+export default UserItem;

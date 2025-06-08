@@ -1,0 +1,69 @@
+body{
+   background-color: #f5f6eb;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #504bf8;
+  border-radius: 8px;
+  background-color: #abd7f6;
+}
+
+.user-profile {
+  margin-bottom: 30px;
+}
+
+.user-profile h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.user-info p {
+  margin: 6px 0;
+  font-size: 18px;
+}
+
+.user-form h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.user-form .form-group {
+  margin-bottom: 15px;
+}
+
+.user-form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.user-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.user-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background-color: #0069d9;
+}
