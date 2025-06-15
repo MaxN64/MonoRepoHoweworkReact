@@ -1,23 +1,52 @@
-// src/App.js
+import React, { useState, useCallback, useMemo } from 'react';
+import UserList from './UserList';
+import styles from './App.module.css';
 
-import React from 'react';
-import { Provider } from 'react-redux';
-import store from './redux/store';
 
-import User from './User';
-import UserForm from './UserForm';
+const initialUsers = [
+  { id: 1, name: 'Alice' },
+  { id: 2, name: 'Bob' },
+  { id: 3, name: 'Charlie' },
+  { id: 4, name: 'David' },
+];
 
 function App() {
-  return (
-    <Provider store={store}>
-      <div style={{ maxWidth: '400px', margin: '2rem auto', fontFamily: 'Arial, sans-serif' }}>
-        {/* Компонент, который просто показывает текущее имя и статус из Redux */}
-        <User />
+ 
+  const [filter, setFilter] = useState('');
 
-        {/* Форма для редактирования данных */}
-        <UserForm />
-      </div>
-    </Provider>
+  
+  const filterUsers = useCallback(
+    (query) => {
+      return initialUsers.filter(user =>
+        user.name.toLowerCase().includes(query.toLowerCase())
+      );
+    },
+    [] 
+  );
+
+  
+  const filteredUsers = useMemo(
+    () => filterUsers(filter),
+    [filter, filterUsers]
+  );
+
+  const handleChange = (e) => {
+    setFilter(e.target.value);
+  };
+
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.title}>User Filter</h1>
+      <input
+        type="text"
+        placeholder="Filter users"
+        value={filter}
+        onChange={handleChange}
+        className={styles.input}
+      />
+      {}
+      <UserList users={filteredUsers} />
+    </div>
   );
 }
 

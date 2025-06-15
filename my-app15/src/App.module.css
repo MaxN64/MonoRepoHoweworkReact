@@ -1,0 +1,24 @@
+.container {
+  padding: 1rem;
+  font-family: sans-serif;
+  background-color: #bff5bd;
+  max-width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 300px;
+  border: 3px rgb(140, 207, 39) solid;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.input {
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
