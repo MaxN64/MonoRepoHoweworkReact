@@ -1,0 +1,13 @@
+
+.card{
+max-width: 40 rem;
+max-width: 40rem;
+border: 1px solid rgb(236, 234, 234);
+border-radius: 15px;
+margin-bottom: 2rem;
+ 
+}
+.cardImg{
+width: 100%;
+height: auto;
+}

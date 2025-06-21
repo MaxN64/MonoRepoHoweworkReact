@@ -7,3 +7,10 @@
 # Системные файлы (macOS, Windows)
 **/.DS_Store
 **/Thumbs.db
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tgz
+*.tar.gz
