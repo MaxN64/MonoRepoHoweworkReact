@@ -1,0 +1,15 @@
+.App {
+  width: 600px;     
+  max-width: 90vw;   
+  margin: 0 auto;
+  margin-top: 350px;
+}
+
+.App {
+  background: #c4e7fc;
+  padding: 2rem;
+}
+
+.App h1 {
+  color: #333;
+}
