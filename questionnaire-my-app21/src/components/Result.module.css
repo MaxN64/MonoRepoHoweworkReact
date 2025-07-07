@@ -1,0 +1,15 @@
+.score {
+  color: #222;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 24px 0 12px 0;
+}
+.resetBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: #1976ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
